@@ -1,0 +1,20 @@
+1	Absolutely loved this product, would buy again!
+0	Waste of money, completely useless.
+1	This phone exceeded my expectations.
+0	The battery died after two hours, disappointing.
+1	Great service and friendly staff.
+0	Rude staff and terrible service.
+1	I am very pleased with the purchase.
+0	Extremely dissatisfied, returning it.
+1	An amazing experience overall!
+0	Not worth the hype at all.
+1	Fast shipping and item as described.
+0	Item arrived broken and late.
+1	The movie was fantastic, highly recommend.
+0	Boring plot and poor acting.
+1	The app's UI is intuitive and sleek.
+0	Crashes constantly, unusable.
+1	Delicious meal, will visit again.
+0	Food was cold and flavorless.
+1	Helpful customer support fixed my issue quickly.
+0	Support ignored my emails for a week.
