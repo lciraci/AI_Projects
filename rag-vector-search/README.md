@@ -1,34 +1,32 @@
-# 🧠 Vector Database RAG Demo
+# 🔍 AI-Powered Q&A Bot with Vector Search (RAG)
 
-This project demonstrates a simple Retrieval-Augmented Generation (RAG) pipeline using vector databases to retrieve and answer questions from custom documents like PDFs.
+This project demonstrates how to build a Retrieval-Augmented Generation (RAG) system using vector databases and open-source language models — no OpenAI required. It includes document chunking, embedding with `sentence-transformers`, similarity search using `FAISS`, and response generation using Hugging Face models.
 
-## 🚀 What It Does
+## 📁 Notebooks
 
-- Loads a PDF document.
-- Splits it into meaningful text chunks.
-- Converts chunks into vector embeddings using `sentence-transformers`.
-- Stores vectors in a FAISS index (in-memory vector database).
-- Enables querying: relevant document chunks are retrieved based on the input question.
-- Passes the retrieved content to an LLM (e.g. Falcon or OpenAI) for answer generation.
+| Notebook                | Description |
+|-------------------------|-------------|
+| `Vector_Database.ipynb` | Basic FAISS setup with sentence embedding and text query testing. |
+| `Vector_Database_PDF.ipynb` | Loads and processes PDF files, then builds a FAISS vector store for search. |
+| `rag_qa_bot.ipynb`      | Full end-to-end open-source RAG pipeline — PDF loading, FAISS search, and answering questions using Hugging Face LLMs. |
 
-## 🛠 Technologies Used
+## 🛠 Tech Stack
 
 - Python
+- `sentence-transformers`
+- `faiss-cpu`
+- `PyMuPDF` (PDF reading)
+- `transformers` by Hugging Face
 - Jupyter Notebook
-- FAISS
-- SentenceTransformers (`all-MiniLM-L6-v2`)
-- PyMuPDF (`fitz`) for PDF parsing
-- Langchain (for chaining embedding + retrieval)
-- HuggingFace Transformers (or OpenAI via Langchain)
 
-## 📁 Files
+## 🚀 Features
 
-- `Vector_Database.ipynb`: Core demo with text-based input.
-- `Vector_Database_PDF.ipynb`: RAG pipeline applied to a PDF document.
+- PDF to vector embedding using `all-MiniLM-L6-v2`
+- Chunked text retrieval using FAISS
+- Question answering using local or Hugging Face-hosted models (e.g. `falcon-7b-instruct`, `mistralai/Mistral-7B`)
+- 100% Open Source — no OpenAI API required
 
 ## 📦 Installation
 
-Create a virtual environment and install the required libraries:
-
 ```bash
-pip install faiss-cpu sentence-transformers pymupdf langchain
+pip install sentence-transformers faiss-cpu pymupdf transformers accelerate
