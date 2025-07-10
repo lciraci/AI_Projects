@@ -31,12 +31,3 @@ A node classification project using **Zachary’s Karate Club** social graph dat
 
 📓 Notebook: `GNN_Based_Social_Network_Analysis.ipynb`
 
----
-
-## 🚀 Next Steps
-
-- Try `GATConv`, `GraphSAGE`, or `GINConv`
-- Use larger datasets like Cora or PubMed
-- Add link prediction or clustering tasks
-
----
