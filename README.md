@@ -1,35 +1,58 @@
 # 🚀 AI & Machine Learning Notebook Collection
 
-This repository is a curated portfolio of hands-on projects and tutorials covering core concepts in machine learning, deep learning, NLP, and LLMs. It serves as both a personal learning archive and a demonstration of practical skills using Python, PyTorch, Hugging Face, and modern vector database tools.
+This repository is a curated portfolio of hands-on projects and tutorials covering core concepts in machine learning, deep learning, NLP, GNNs, and LLMs. It serves as both a personal learning archive and a demonstration of practical skills using Python, PyTorch, Hugging Face, and modern vector database tools.
+
+---
 
 ## 📁 Folder Overview
 
 | Folder | Description |
 |--------|-------------|
-| `Classify_handwritten_digits` | Neural network that classifies handwritten digits (e.g., MNIST). |
-| `ml-dl-notebooks` | Introductory notebooks covering linear/logistic regression, decision trees, and basic neural networks. |
-| `nlp-llm-huggingface` | Projects using Hugging Face Transformers for sentiment analysis and LLM tasks. |
-| `pytorch-tutorials` | End-to-end PyTorch tutorial series: tensors, training loops, CNNs, transfer learning. |
-| `rag-vector-search` | Retrieval-Augmented Generation (RAG) pipeline using FAISS and LangChain to query PDFs. |
-| `misc-ml-nb` | Miscellaneous notebooks: GPT-2 fine-tuning, translation tasks, simple regression models, etc. |
+| `00_ml-dl-notebooks` | Introductory notebooks on classical ML: linear/logistic regression, decision trees, and neural networks. |
+| `01_pytorch-tutorials` | End-to-end PyTorch tutorials: tensors, training loops, CNNs, transfer learning, etc. |
+| `02_Classify_handwritten_digits` | Neural network for classifying handwritten digits (MNIST). |
+| `03_nlp-llm-huggingface` | Projects using Hugging Face Transformers for sentiment analysis, text generation, and LLM workflows. |
+| `04_rag-vector-search` | Retrieval-Augmented Generation (RAG) system using FAISS + LangChain to query documents and PDFs. |
+| `05_gnn-recommenders-social` | GNN-based projects including node classification on Cora and a user-movie recommendation engine. |
+| `misc-ml-nb` | Miscellaneous notebooks: GPT-2 fine-tuning, translation, regressions, and smaller experiments. |
+
+---
 
 ## 🧠 Topics Covered
 
-- ✅ Linear & Logistic Regression
-- ✅ Decision Trees & Classical ML
-- ✅ Neural Networks (Fully Connected, CNNs, RNNs)
+- ✅ Classical ML (Linear & Logistic Regression, Decision Trees)
+- ✅ Neural Networks (Feedforward, CNNs, RNNs)
 - ✅ PyTorch Fundamentals
-- ✅ Transfer Learning with Pre-trained Models
+- ✅ Transfer Learning
 - ✅ Hugging Face Transformers & NLP
-- ✅ Vector Search + RAG using FAISS
-- ✅ Translation & Sentiment Analysis
+- ✅ Vector Search & Retrieval-Augmented Generation (RAG)
+- ✅ Sentiment Analysis, Text Classification
+- ✅ Graph Neural Networks (GCNs, GATs)
+- ✅ Recommender Systems using Graphs
+
+---
 
 ## 🛠 Tech Stack
 
 - Python 3.x
 - Jupyter Notebooks
-- PyTorch
+- PyTorch & PyTorch Geometric
 - Hugging Face Transformers
 - FAISS / LangChain
-- NumPy, Scikit-learn, Matplotlib
+- NumPy, Pandas, Matplotlib
+- NetworkX, Scikit-learn
 - Torchvision / Datasets
+
+---
+
+## 📌 Usage
+
+This repo is organized by topic and notebook sequence. You can explore notebooks individually in Colab or run them locally in a conda/venv environment. Each folder contains its own README when needed.
+
+---
+
+## ✨ Author
+
+Lucio Ciracì – Learning AI, one project at a time 🇮🇹🇺🇸  
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/lucio-ciraci94c/) or check out the project updates on GitHub.
+
