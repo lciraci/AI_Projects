@@ -14,6 +14,7 @@ This repository is a curated portfolio of hands-on projects and tutorials coveri
 | `03_nlp-llm-huggingface` | Projects using Hugging Face Transformers for sentiment analysis, text generation, and LLM workflows. |
 | `04_rag-vector-search` | Retrieval-Augmented Generation (RAG) system using FAISS + LangChain to query documents and PDFs. |
 | `05_gnn-recommenders-social` | GNN-based projects including node classification on Cora and a user-movie recommendation engine. |
+| `06_mlops_model_deployment` | End-to-end API projects using FastAPI + Hugging Face + ngrok for real-time model serving (summarization, translation, and more_
 | `misc-ml-nb` | Miscellaneous notebooks: GPT-2 fine-tuning, translation, regressions, and smaller experiments. |
 
 ---
@@ -29,6 +30,7 @@ This repository is a curated portfolio of hands-on projects and tutorials coveri
 - ✅ Sentiment Analysis, Text Classification
 - ✅ Graph Neural Networks (GCNs, GATs)
 - ✅ Recommender Systems using Graphs
+- ✅ MLOps & API Deployment with FastAPI and ngrok
 
 ---
 

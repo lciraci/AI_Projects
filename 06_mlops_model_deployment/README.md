@@ -1,38 +1,35 @@
-# 🚀 FastAPI Student API - `expecting_more`
+# 🚀 FastAPI Projects - `summarizer_and_student_api`
 
-This folder contains a simple FastAPI project for managing student records via RESTful endpoints.
+This folder contains two FastAPI projects:
+
+1. **Text Summarization API** (built and deployed in Google Colab using `ngrok`)
+2. **Student API** (CRUD app running locally with in-memory data)
 
 ---
 
 ## 📚 Description
 
-`myapi.py` defines a FastAPI app that supports CRUD operations on a student database stored in memory. It demonstrates how to build and document APIs using FastAPI.
+- `API_serving_text_summarization_model.ipynb` contains a summarization model deployed as an API using Hugging Face's `facebook/bart-large-cnn` model and FastAPI inside Google Colab.
+- `myapi.py` defines a classic student API that supports CRUD operations using FastAPI and Pydantic.
 
 ---
 
 ## 🛠️ Techniques
 
-- FastAPI for API creation  
-- Pydantic for data validation  
-- Path and query parameters  
-- Swagger UI for interactive docs  
+- FastAPI for backend development  
+- Hugging Face Transformers for text summarization  
+- Pyngrok to expose the Colab API to the web  
+- Uvicorn to serve locally  
+- Pydantic for input validation  
+- Swagger UI for interactive docs (`/docs`)
 
 ---
 
-## 🔗 Endpoints
+## 🔗 Summarization API (Colab)
 
-- `GET /` — Root endpoint  
-- `GET /get/students/{student_id}` — Get student by ID  
-- `GET /get-by-name?name=...` — Get student by name  
-- `POST /create-student/{student_id}` — Create a new student  
-- `PUT /update-student/{student_id}` — Update student info  
-- `DELETE /delete-student/{student_id}` — Delete a student  
-
----
-
-## 💡 Future Improvements
-
-- Add persistent database (e.g., SQLite or PostgreSQL)  
-- Implement authentication  
-- Add pagination and filtering  
-- Write unit tests for endpoints  
+- `POST /summarize` — Summarizes a long text  
+  Example payload:
+  ```json
+  {
+    "text": "Artificial Intelligence is transforming industries, from healthcare to finance, with its ability to learn and adapt."
+  }
