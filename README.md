@@ -16,7 +16,7 @@ This repository is a curated portfolio of hands-on projects and tutorials coveri
 | `05_gnn-recommenders-social` | GNN-based projects including node classification on Cora and a user-movie recommendation engine. |
 | `06_mlops_model_deployment` | End-to-end API projects using FastAPI + Hugging Face + ngrok for real-time model serving (summarization, translation, and more_
 | `07_sagemaker-llm-lambda` | Real-world deployment of a DistilBERT classifier using AWS SageMaker + Lambda + API Gateway for real-time inference. |
-| '08_aws-lambda-product-normalizer' | Serverless product name normalization using Claude 3 via Amazon Bedrock + AWS Lambda, optimized for lightweight API integration. |
+| `08_aws-lambda-product-normalizer` | Serverless product name normalization using Claude 3 via Amazon Bedrock + AWS Lambda, optimized for lightweight API integration. |
 | `dbt-ai-observability` | Monitoring dbt Cloud job runs using AWS Lambda and AI (e.g., Bedrock) to detect, analyze, and summarize errors from production pipelines. |
 | `misc-ml-nb` | Miscellaneous notebooks: GPT-2 fine-tuning, translation, regressions, and smaller experiments. |
 
