@@ -38,6 +38,4 @@ jobs:
           context: ./09_huggingface-fastapi
           file: ./09_huggingface-fastapi/Dockerfile
           push: true
-          tags: 
-            docker.io/${{ secrets.DOCKER_USERNAME }}/huggingface-fastapi:latest
-            docker.io/${{ secrets.DOCKER_USERNAME }}/huggingface-fastapi:${{ github.sha }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/huggingface-fastapi:latest
