@@ -3,7 +3,6 @@ name: Build and Push Docker Image
 on:
   push:
     branches: [ "main" ]
-    # (opzionale) limita il trigger ai cambi in questa cartella:
     paths:
       - "09_huggingface-fastapi/**"
       - ".github/workflows/deploy.yml"
