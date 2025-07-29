@@ -7,6 +7,7 @@ on:
       - "09_huggingface-fastapi/**"
       - ".github/workflows/deploy.yml"
 
+# This workflow builds and pushes a Docker image for the Hugging Face FastAPI application.
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
